@@ -55,6 +55,12 @@ extension AlbumsCVC {
         cell.setupAlbum(album: self.albums[indexPath.row])
         return cell
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = UIStoryboard(name: Constants.ALBUM_STORYBOARD, bundle: nil).instantiateViewController(withIdentifier: "AlbumImagesCVC") as! AlbumImagesCVC
+        vc.album = self.albums[indexPath.row]
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
 extension AlbumsCVC: UICollectionViewDelegateFlowLayout {

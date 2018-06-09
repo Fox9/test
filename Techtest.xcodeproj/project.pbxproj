@@ -26,6 +26,20 @@
 		7A4A884D20C97E4600C9D468 /* PostsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A884C20C97E4600C9D468 /* PostsTVC.swift */; };
 		7A4A885120C97F7700C9D468 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A885020C97F7700C9D468 /* NetworkManager.swift */; };
 		7A4A885420C9808B00C9D468 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A885320C9808B00C9D468 /* Post.swift */; };
+		7A5B542720CB9527000F736E /* AlbumImagesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B542620CB9527000F736E /* AlbumImagesCVC.swift */; };
+		7A5B542A20CB9568000F736E /* ImageCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B542820CB9568000F736E /* ImageCVCell.swift */; };
+		7A5B542B20CB9568000F736E /* ImageCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B542920CB9568000F736E /* ImageCVCell.xib */; };
+		7A5B542D20CB95E6000F736E /* AlbumImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B542C20CB95E6000F736E /* AlbumImage.swift */; };
+		7A5B543120CC1C4A000F736E /* FullImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B543020CC1C4A000F736E /* FullImageVC.swift */; };
+		7A5B543320CC2921000F736E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B543220CC2921000F736E /* Weather.swift */; };
+		7A5B543720CC2D83000F736E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B543620CC2D83000F736E /* Item.swift */; };
+		7A5B543A20CC2EE7000F736E /* PostTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B543820CC2EE7000F736E /* PostTVCell.swift */; };
+		7A5B543B20CC2EE7000F736E /* PostTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B543920CC2EE7000F736E /* PostTVCell.xib */; };
+		7A5B543E20CC3025000F736E /* WeatherTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B543C20CC3025000F736E /* WeatherTVCell.swift */; };
+		7A5B543F20CC3025000F736E /* WeatherTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B543D20CC3025000F736E /* WeatherTVCell.xib */; };
+		7A5B544520CC3D16000F736E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B544420CC3D16000F736E /* Extensions.swift */; };
+		7A5B544720CC3E0A000F736E /* Album.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B544620CC3E0A000F736E /* Album.storyboard */; };
+		7A5B544920CC3E1F000F736E /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B544820CC3E1F000F736E /* Posts.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +63,20 @@
 		7A4A884C20C97E4600C9D468 /* PostsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTVC.swift; sourceTree = "<group>"; };
 		7A4A885020C97F7700C9D468 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7A4A885320C9808B00C9D468 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7A5B542620CB9527000F736E /* AlbumImagesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImagesCVC.swift; sourceTree = "<group>"; };
+		7A5B542820CB9568000F736E /* ImageCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCVCell.swift; sourceTree = "<group>"; };
+		7A5B542920CB9568000F736E /* ImageCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCVCell.xib; sourceTree = "<group>"; };
+		7A5B542C20CB95E6000F736E /* AlbumImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImage.swift; sourceTree = "<group>"; };
+		7A5B543020CC1C4A000F736E /* FullImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageVC.swift; sourceTree = "<group>"; };
+		7A5B543220CC2921000F736E /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		7A5B543620CC2D83000F736E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7A5B543820CC2EE7000F736E /* PostTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVCell.swift; sourceTree = "<group>"; };
+		7A5B543920CC2EE7000F736E /* PostTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTVCell.xib; sourceTree = "<group>"; };
+		7A5B543C20CC3025000F736E /* WeatherTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTVCell.swift; sourceTree = "<group>"; };
+		7A5B543D20CC3025000F736E /* WeatherTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTVCell.xib; sourceTree = "<group>"; };
+		7A5B544420CC3D16000F736E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7A5B544620CC3E0A000F736E /* Album.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Album.storyboard; sourceTree = "<group>"; };
+		7A5B544820CC3E1F000F736E /* Posts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
 		A56177508B567EA6C2B5ECA3 /* Pods-Techtest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techtest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Techtest/Pods-Techtest.release.xcconfig"; sourceTree = "<group>"; };
 		B67EB30998D6B27A37486D9D /* Pods_Techtest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techtest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,6 +107,8 @@
 			children = (
 				7A0861E120CAF74100790327 /* Cell */,
 				7A4A883E20C97CF400C9D468 /* Main.storyboard */,
+				7A5B544620CC3E0A000F736E /* Album.storyboard */,
+				7A5B544820CC3E1F000F736E /* Posts.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +118,7 @@
 			children = (
 				7A4A883A20C97CF400C9D468 /* AppDelegate.swift */,
 				7A0861EA20CAFEBF00790327 /* Constants.swift */,
+				7A5B544420CC3D16000F736E /* Extensions.swift */,
 				7A4A884120C97CF600C9D468 /* Assets.xcassets */,
 				7A4A884320C97CF600C9D468 /* LaunchScreen.storyboard */,
 			);
@@ -98,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				7A0861F020CB055000790327 /* Album */,
-				7A0861EF20CB054100790327 /* Commet */,
+				7A0861EF20CB054100790327 /* Posts */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -111,13 +142,14 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		7A0861EF20CB054100790327 /* Commet */ = {
+		7A0861EF20CB054100790327 /* Posts */ = {
 			isa = PBXGroup;
 			children = (
-				7A0861E220CAF77300790327 /* CommentTVCell.swift */,
-				7A0861E320CAF77300790327 /* CommentTVCell.xib */,
+				7A5B544020CC324B000F736E /* Comment */,
+				7A5B544220CC3260000F736E /* Post */,
+				7A5B544320CC326B000F736E /* Weather */,
 			);
-			path = Commet;
+			path = Posts;
 			sourceTree = "<group>";
 		};
 		7A0861F020CB055000790327 /* Album */ = {
@@ -125,6 +157,8 @@
 			children = (
 				7A0861F320CB096C00790327 /* AlbumCVCell.swift */,
 				7A0861F420CB096C00790327 /* AlbumCVCell.xib */,
+				7A5B542820CB9568000F736E /* ImageCVCell.swift */,
+				7A5B542920CB9568000F736E /* ImageCVCell.xib */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -164,9 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				7A0861EC20CAFFB100790327 /* Base */,
-				7A4A884C20C97E4600C9D468 /* PostsTVC.swift */,
-				7A0861E620CAF9C100790327 /* CommetsTVC.swift */,
-				7A0861F120CB05AE00790327 /* AlbumsCVC.swift */,
+				7A5B542E20CB96B0000F736E /* Posts */,
+				7A5B542F20CB96B8000F736E /* Albums */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,11 +215,60 @@
 		7A4A885220C9807A00C9D468 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7A5B543620CC2D83000F736E /* Item.swift */,
 				7A4A885320C9808B00C9D468 /* Post.swift */,
+				7A5B543220CC2921000F736E /* Weather.swift */,
 				7A0861D120CAE68900790327 /* Comment.swift */,
 				7A0861F720CB898300790327 /* Album.swift */,
+				7A5B542C20CB95E6000F736E /* AlbumImage.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7A5B542E20CB96B0000F736E /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				7A4A884C20C97E4600C9D468 /* PostsTVC.swift */,
+				7A0861E620CAF9C100790327 /* CommetsTVC.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		7A5B542F20CB96B8000F736E /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				7A0861F120CB05AE00790327 /* AlbumsCVC.swift */,
+				7A5B542620CB9527000F736E /* AlbumImagesCVC.swift */,
+				7A5B543020CC1C4A000F736E /* FullImageVC.swift */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		7A5B544020CC324B000F736E /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				7A0861E220CAF77300790327 /* CommentTVCell.swift */,
+				7A0861E320CAF77300790327 /* CommentTVCell.xib */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		7A5B544220CC3260000F736E /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B543820CC2EE7000F736E /* PostTVCell.swift */,
+				7A5B543920CC2EE7000F736E /* PostTVCell.xib */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		7A5B544320CC326B000F736E /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B543C20CC3025000F736E /* WeatherTVCell.swift */,
+				7A5B543D20CC3025000F736E /* WeatherTVCell.xib */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 		C02CB634B40FB184B5116AC6 /* Frameworks */ = {
@@ -258,12 +340,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5B543F20CC3025000F736E /* WeatherTVCell.xib in Resources */,
+				7A5B544920CC3E1F000F736E /* Posts.storyboard in Resources */,
 				7A0861F620CB096C00790327 /* AlbumCVCell.xib in Resources */,
 				7A0861E920CAFCFE00790327 /* Info.plist in Resources */,
+				7A5B542B20CB9568000F736E /* ImageCVCell.xib in Resources */,
+				7A5B544720CC3E0A000F736E /* Album.storyboard in Resources */,
 				7A0861E520CAF77300790327 /* CommentTVCell.xib in Resources */,
 				7A4A884520C97CF600C9D468 /* LaunchScreen.storyboard in Resources */,
 				7A4A884220C97CF600C9D468 /* Assets.xcassets in Resources */,
 				7A4A884020C97CF400C9D468 /* Main.storyboard in Resources */,
+				7A5B543B20CC2EE7000F736E /* PostTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,11 +399,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Techtest/Pods-Techtest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,13 +420,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0861E720CAF9C100790327 /* CommetsTVC.swift in Sources */,
+				7A5B543320CC2921000F736E /* Weather.swift in Sources */,
+				7A5B543A20CC2EE7000F736E /* PostTVCell.swift in Sources */,
 				7A4A885420C9808B00C9D468 /* Post.swift in Sources */,
 				7A0861EE20CAFFC500790327 /* BaseTVC.swift in Sources */,
+				7A5B543720CC2D83000F736E /* Item.swift in Sources */,
 				7A0861D220CAE68900790327 /* Comment.swift in Sources */,
+				7A5B542A20CB9568000F736E /* ImageCVCell.swift in Sources */,
+				7A5B543E20CC3025000F736E /* WeatherTVCell.swift in Sources */,
 				7A4A885120C97F7700C9D468 /* NetworkManager.swift in Sources */,
 				7A0861E420CAF77300790327 /* CommentTVCell.swift in Sources */,
+				7A5B542720CB9527000F736E /* AlbumImagesCVC.swift in Sources */,
 				7A4A884D20C97E4600C9D468 /* PostsTVC.swift in Sources */,
+				7A5B544520CC3D16000F736E /* Extensions.swift in Sources */,
 				7A0861F520CB096C00790327 /* AlbumCVCell.swift in Sources */,
+				7A5B542D20CB95E6000F736E /* AlbumImage.swift in Sources */,
+				7A5B543120CC1C4A000F736E /* FullImageVC.swift in Sources */,
 				7A4A883B20C97CF400C9D468 /* AppDelegate.swift in Sources */,
 				7A0861F220CB05AE00790327 /* AlbumsCVC.swift in Sources */,
 				7A0861EB20CAFEBF00790327 /* Constants.swift in Sources */,

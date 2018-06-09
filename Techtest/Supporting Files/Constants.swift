@@ -22,5 +22,7 @@ struct Constants {
     
     // MARK: Storyboards
     static let MAIN_STORYBOARD = "Main"
+    static let ALBUM_STORYBOARD = "Album"
+    static let POSTS_STORYBOARD = "Posts"
     
 }

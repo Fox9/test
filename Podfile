@@ -8,5 +8,6 @@ target 'Techtest' do
   # Pods for Techtest
   pod 'Alamofire'
   pod 'ObjectMapper'
+  pod 'SDWebImage'
 
 end

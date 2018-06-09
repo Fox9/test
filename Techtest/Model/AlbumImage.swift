@@ -1,20 +1,20 @@
 //
-//  Post.swift
+//  AlbumImage.swift
 //  Techtest
 //
-//  Created by Ellan Esenaliev on 07.06.2018.
+//  Created by Ellan Esenaliev on 09.06.2018.
 //  Copyright © 2018 Ellan Esenaliev. All rights reserved.
 //
 
 import Foundation
 import ObjectMapper
 
-class Post: Mappable, Item {
-    
+class AlbumImage: Mappable  {
     var id: Int = 0
-    var userId: Int = 0
+    var albumId: Int = 0
     var title: String = ""
-    var body: String = ""
+    var url: String = ""
+    var thumbnailUrl: String = ""
     
     required convenience init?(map: Map) {
         self.init()
@@ -22,14 +22,9 @@ class Post: Mappable, Item {
     
     func mapping(map: Map) {
         self.id <- map["id"]
-        self.userId <- map["userId"]
+        self.albumId <- map["albumId"]
         self.title <- map["title"]
-        self.body <- map["body"]
+        self.url <- map["url"]
+        self.thumbnailUrl <- map["thumbnailUrl"]
     }
-    
-    func getItem() -> PostItem {
-        return PostItem.Post
-    }
-    
-    
 }
