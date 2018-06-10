@@ -109,11 +109,11 @@
             </objects>
             <point key="canvasLocation" x="1310" y="-218"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Posts-->
         <scene sceneID="YlT-BM-2Gn">
             <objects>
                 <navigationController id="3kH-ZW-BPg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="1Va-Eu-hFT"/>
+                    <tabBarItem key="tabBarItem" title="Posts" image="ic_posts" id="1Va-Eu-hFT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qxk-8v-gi4">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -126,11 +126,11 @@
             </objects>
             <point key="canvasLocation" x="126" y="-945"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Albums-->
         <scene sceneID="HL2-WL-lpK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ifk-PF-9SN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="sew-4M-c0c"/>
+                    <tabBarItem key="tabBarItem" title="Albums" image="ic_albums" id="sew-4M-c0c"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FlI-rv-7VT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -146,4 +146,8 @@
             <point key="canvasLocation" x="1309.5999999999999" y="-965.6671664167917"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_albums" width="25" height="25"/>
+        <image name="ic_posts" width="25" height="25"/>
+    </resources>
 </document>
